@@ -1,0 +1,465 @@
+{
+  "sections": {
+    "image-with-text-overlay-1": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/Chelsea_Hope20226.jpg",
+        "pretext": "",
+        "title": "Fashion On A Mission!",
+        "subtitle": "<p>Step into serious comfort with the Chelsea Boots<\/p>",
+        "button1": "Shop Women",
+        "button1_link": "shopify:\/\/collections\/womens-rain-boots",
+        "button1_style": "global-button--banner",
+        "button2": "Shop Men",
+        "button2_link": "shopify:\/\/collections\/men",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "translucent_text_box",
+        "mobile_image": "shopify:\/\/shop_images\/Chelsea_Hope20226.jpg",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": false,
+        "mobile_text_color": "rgba(0,0,0,0)",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1648220843a099dcdf": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured-collection-1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLERS",
+        "collection_description": true,
+        "collection": "best-sellers",
+        "collection_style": "slider",
+        "products_per": 4,
+        "products_limit": 24,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1648140422f50c98b9": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 30,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164814051893c25634": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Our Favorites",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured-promotions-1": {
+      "type": "featured-promotions",
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EMMA_Yellow.jpg",
+            "link": "",
+            "title": "EMMA COLLECTION",
+            "text": "",
+            "button_label": "SHOP NOW"
+          }
+        },
+        "block-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Abel_Red.jpg",
+            "link": "",
+            "title": "ABEL CHILDREN COLLECTION",
+            "text": "",
+            "button_label": "SHOP NOW"
+          }
+        },
+        "block-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/35d10718-856f-495b-9664-61065d4a924b.jpg",
+            "link": "",
+            "title": "CHELSEA COLLECTION",
+            "text": "",
+            "button_label": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "wide_display": true,
+        "promo_text_on_image_enabled": true,
+        "featured_promos_per_row": 3,
+        "featured_links_animation": "fadeInDown",
+        "feature_style": "square",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164816510370241b8b": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16481656164285a74d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Chelsea collection",
+        "collection_description": false,
+        "collection": "chelsea",
+        "collection_style": "slider",
+        "products_per": 4,
+        "products_limit": 9,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16481842966194d682": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "slideshow-1": {
+      "type": "slideshow",
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Donate_Banner.png",
+            "pretext": "",
+            "title": "GIVE POVERTY THE BOOT",
+            "subtitle": "<p>For every pair of boots sold, a brand new pair is donated to a child living in poverty. In the last 12 years ROMA BOOTS has donated hundreds of thousands of boots in 30+ countries around the world. Thank You! #ForYouForAll<\/p>",
+            "button1": "LEARN MORE",
+            "button1_link": "shopify:\/\/pages\/mission",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "darken_bg",
+            "mobile_image_crop": "none"
+          }
+        }
+      },
+      "block_order": [
+        "block-1"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "slide",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "testimonials-1": {
+      "type": "testimonial",
+      "disabled": true,
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "title": "Customer Testimonial",
+            "testimonial": "<p>Include some of your favorite customer quotes and feedback here as social proof, to build credibility and trust for your services and products.<\/p>",
+            "name": "",
+            "store_name": "",
+            "link": "",
+            "text_position": "center",
+            "text_align": "center",
+            "mobile_image_crop": "none",
+            "caption_content_background": "original"
+          }
+        },
+        "block-2": {
+          "type": "image",
+          "settings": {
+            "title": "Customer Testimonial",
+            "testimonial": "<p>Include some of your favorite customer quotes and feedback here as social proof, to build credibility and trust for your services and products.<\/p>",
+            "name": "",
+            "store_name": "",
+            "link": "",
+            "text_position": "center",
+            "text_align": "center",
+            "mobile_image_crop": "none",
+            "caption_content_background": "original"
+          }
+        },
+        "block-3": {
+          "type": "image",
+          "settings": {
+            "title": "Customer Testimonial",
+            "testimonial": "<p>Include some of your favorite customer quotes and feedback here as social proof, to build credibility and trust for your services and products.<\/p>",
+            "name": "",
+            "store_name": "",
+            "link": "",
+            "text_position": "center",
+            "text_align": "center",
+            "mobile_image_crop": "none",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "wide_display": true,
+        "testimonial_text_animation": "",
+        "testimonial_speed": 6,
+        "activate_adaptiveHeight": true,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164822174855d251fe": {
+      "type": "featured-text",
+      "settings": {
+        "title": "EVERY PURCHASE GIVES PURPOSE",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1648220361fb7384bd": {
+      "type": "apps",
+      "blocks": {
+        "5427b9d4-dd80-4b2e-a8d7-61f75fc05197": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": true,
+            "heading": "",
+            "badge_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "5427b9d4-dd80-4b2e-a8d7-61f75fc05197"
+      ],
+      "settings": {}
+    },
+    "1648220387df4566ff": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164814015967f2e124": {
+      "type": "logo-bar",
+      "blocks": {
+        "164814015943ea9946-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheView.png",
+            "link": ""
+          }
+        },
+        "164814015943ea9946-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BAZAAR.png",
+            "link": ""
+          }
+        },
+        "164814015943ea9946-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MSNBC.png",
+            "link": ""
+          }
+        },
+        "164814015943ea9946-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/InStyle.png",
+            "link": ""
+          }
+        },
+        "d36fcfe6-57f9-4d26-bea9-34cca27bfab7": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Today_Show.png",
+            "link": ""
+          }
+        },
+        "480acf14-d335-4bd7-9ed0-11bf5eef97d9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Good_Morning_America.png",
+            "link": ""
+          }
+        },
+        "500e4d08-099e-4048-bdcc-a1b690e13605": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Oprah_Magazine.png",
+            "link": ""
+          }
+        },
+        "29d0726d-af42-4453-8911-03b571b2e567": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HuffPost.png",
+            "link": ""
+          }
+        },
+        "2d8f641a-2f09-4b37-90f4-55cd854fbe5d": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Inc.png",
+            "link": ""
+          }
+        },
+        "59c7cef4-a805-4c19-81ea-51eccaa15cb5": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forbes.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164814015943ea9946-0",
+        "164814015943ea9946-1",
+        "164814015943ea9946-2",
+        "164814015943ea9946-3",
+        "d36fcfe6-57f9-4d26-bea9-34cca27bfab7",
+        "480acf14-d335-4bd7-9ed0-11bf5eef97d9",
+        "500e4d08-099e-4048-bdcc-a1b690e13605",
+        "29d0726d-af42-4453-8911-03b571b2e567",
+        "2d8f641a-2f09-4b37-90f4-55cd854fbe5d",
+        "59c7cef4-a805-4c19-81ea-51eccaa15cb5"
+      ],
+      "settings": {
+        "title": "AS FEATURED IN",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16481651985de4c017": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1648165567395d0688": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<script src=\"\/\/foursixty.com\/media\/scripts\/fs.embed.v2.5.js\" data-feed-id=\"roma-boots\" data-theme=\"showcase_v2_5\" data-open-links-in-same-page=\"true\" data-show-okendo-stars=\"true\" data-page-size=\"8\"><\/script>\n\n<style>.fs-has-links::after { padding:5px 7.5px;border:1px solid #ffffff;color:#ffffff;content:\"SHOP THE LOOK\"; } .fs-has-links:hover:after { background-color:#ffffff;color:rgba(0, 0, 0, 0.8); } .fs-showcase_v2_5.fs-desktop .fs-entry-container { width:25% !important;padding-top:25% !important; } .fs-showcase_v2_5.fs-mobile .fs-entry-container { width:50% !important;padding-top:50% !important; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:Times New Roman, serif;font-style:normal;font-weight:normal;font-size:14px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:14px; } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0, 0, 0, 0.8);margin:0px; } div.fs-entry-date { display:none; } div.fs-entry-title { display:none; } .fs-showcase_v2_5.fs-wrapper div.fs-timeline-entry { margin:1px; } <\/style>",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16481656128c08e619": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "newsletter-1": {
+      "type": "newsletter",
+      "settings": {
+        "wide_display": true,
+        "display_first_name": false,
+        "display_last_name": false,
+        "newsletter_title": "Subscribe",
+        "newsletter_text": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
+        "newsletter_section_text_align": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "blog-posts-1": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Blog posts",
+        "blog_widget_select": "",
+        "home_page_articles": 3,
+        "blog_tags": false,
+        "blog_author": false,
+        "read_time": true,
+        "blog_date": true,
+        "blog_comment_count": true,
+        "read_more_link": true,
+        "excerpt_display": "full_excerpt",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay-1",
+    "1648220843a099dcdf",
+    "featured-collection-1",
+    "1648140422f50c98b9",
+    "164814051893c25634",
+    "featured-promotions-1",
+    "164816510370241b8b",
+    "16481656164285a74d",
+    "16481842966194d682",
+    "slideshow-1",
+    "testimonials-1",
+    "164822174855d251fe",
+    "1648220361fb7384bd",
+    "1648220387df4566ff",
+    "164814015967f2e124",
+    "16481651985de4c017",
+    "1648165567395d0688",
+    "16481656128c08e619",
+    "newsletter-1",
+    "blog-posts-1"
+  ]
+}

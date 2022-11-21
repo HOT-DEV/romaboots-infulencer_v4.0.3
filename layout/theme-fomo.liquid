@@ -1,0 +1,56 @@
+{% capture content %}
+<!DOCTYPE html>
+<html class="no-js no-touch" lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="robots" content="index,follow">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="{{ settings.shop_bg_color }}">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    
+    <title>
+      {% if template contains "index" %}{{ page_title }}{% else %}{{ page_title }}{% if current_tags %} {{ 'general.meta.tagged_html' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} {{ 'general.meta.page' | t: page_number: current_page }}{% endif %}{% unless page_title contains shop.name %} - {{ shop.name }}{% endunless %}{% endif %}
+    </title>
+   
+    <link rel="preload" href="{{ 'fomopromo.css' | asset_url }}" as="style">
+    
+    {{ 'fomopromo.css' | asset_url | stylesheet_tag }}
+
+    {{ content_for_header }}
+    
+    {% if settings.fomopromo_enable_captcha == true %}
+      
+      <script src="https://www.google.com/recaptcha/api.js"></script>
+
+      <script>
+        var response;
+        function timestamp() { response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); document.getElementById('recaptcha_checked').checked = false } else document.getElementById('recaptcha_checked').checked = true; } setInterval(timestamp, 500);
+      </script>
+
+    {% endif %}
+
+  </head>
+
+  <body class="{% if template == '404' %}error-404{% else %}{{ template | replace: '.', '-' | handle }}{% endif %}"
+        data-money-format="
+          {%- if settings.currency_format == 'money_with_currency_format' -%}
+            {{- shop.money_with_currency_format | strip_html -}}
+          {%- else -%}
+            {{- shop.money_format | strip_html -}}
+          {%- endif -%}"
+        data-shop-currency="{{ shop.currency }}"
+        data-shop-url="{{ shop.url }}">
+
+    <div class="section-wrapper section-wrapper--{{ template.name }}">
+      {{ content_for_layout }}
+    </div>
+
+</html>
+{% endcapture %}
+{% assign content = content | replace_first: '<!DOCTYPE', '!DOCTYPE' | split: ' <' %}
+{% for html in content %}{% assign htmlblock = html | strip | prepend: ' <' %}{{htmlblock | replace: ' </', '</'}}{% endfor %}

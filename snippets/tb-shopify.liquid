@@ -1,0 +1,46 @@
+<script type="text/javascript">var tbCustomerNameCheck="{{customer.name}}";""===tbCustomerNameCheck&&(tbCustomerNameCheck="anonymous");var orderIdNew="{{order.order_number}}",tbConfig={apiStatus:"app",apiKey:"e4f5dbed-76ff-4ca8-9ae2-07ea8d78b172",apiToken:"58a6bae5-b76b-4e8c-ba80-1c06e4b44dd1",apiUrl:"/webhooks/",apiVersion:"v1",trackingType:"1",productName:"{{product.title | escape}}",productId:"{{product.id}}",productImageUrl:"{{ product.images[0] | product_img_url: 'medium' }}",productUrl:"{{product.url}}",productPrice:"{{product.price  | money_without_currency}}",productStockStatus:"{{product.available}}",productStock:"{{product.available}}",productCollection:"{{product.collections[0]}}",collectionTitle:"{{collection.title}}",collectionId:"{{collection.id}}",collectionUrl:"{{collection.url}}",userId:"{{customer.id}}",userMail:"{{customer.email}}",userName:tbCustomerNameCheck,userAvatar:"",pageName:"{{page.title}}",pageUrl:"",pageData:"",orderId:orderIdNew,platform:"sf",tbTrack:!0,tbMessage:!0,tbAccessToken:"",tbWooBulkReview:!0,tbReview:{tbSiteReview:!1,tbProductReview:!1,tbCustomProductReview:!1,tbBulkReview:!1,tbQa:!1,tbReviewBadge:!1,tbReviewPopup:!1}};
+
+</script>
+
+<!-- Adroll Integration Starts -->
+<script type="text/javascript">
+    var prIdAdroll = "{{product.id}}";
+    adroll_adv_id = "ZPUHQGAOIZDVHKP6QZ35LH";
+    adroll_pix_id = "HWASV65FQBFK7DH2FBAFSY";
+    if(prIdAdroll !== ''){
+      adroll_custom_data = {"product_id": prIdAdroll};
+    }
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
+<!-- Adroll Integration Ends -->
+
+<style>
+  table#bgimage {
+   background-size: contain !important;
+height:440px !important;
+}
+
+@media (max-width: 768px){
+table#bgimage {
+background:#fff !important;
+}}
+  
+  #targetbay_message table:not(#customer-orders):not(#order-details) th:first-child, table:not(#customer-orders):not(#order-details) td:first-child {
+    border: 0px solid #dcdcdc !important;
+}
+  
+</style>

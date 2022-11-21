@@ -1,0 +1,403 @@
+{
+  "sections": {
+    "sidebar": {
+      "type": "product-sidebar",
+      "settings": {
+        "toggle": false
+      }
+    },
+    "main": {
+      "type": "product-template",
+      "blocks": {
+        "0306e497-43a6-44a2-a5be-5d3659fc7de0": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "bf0449f4-ec14-4676-a834-04757c115ca1": {
+          "type": "tabs",
+          "disabled": true,
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": false,
+            "tab_heading_1": "Specs",
+            "tab_text_1": "<p>• Vegan<br\/>• Eco-Friendly<br\/>• Made from: Natural Rubber<br\/>• Outsole: Traditional Natural Rubber<br\/>• Lining: Quick Dry Knitted Cotton Lining<br\/>• Footbed: Multi-Layer Cushioned Sole<\/p>",
+            "tab_heading_2": "Care Guide",
+            "tab_text_2": "<p>A white powdery \"bloom\" may appear on your boots. You can clean them by using cold, soapy water. Wipe clean and leave to dry naturally. Use a little vegetable or olive oil on a clean, dry cloth to keep your boots looking fresh.<\/p>",
+            "tab_heading_3": "Shipping & Returns",
+            "tab_text_3": "<p>Free shipping on orders over $75, and our 30 days, no questions asked return policy. Visit our <a href=\"\/pages\/orders\" title=\"Orders FAQs and Shipping & Handling\">Returns Portal<\/a>.<\/p>"
+          }
+        },
+        "0e79901c-b9ff-47b9-9035-c671f076109d": {
+          "type": "popup",
+          "settings": {
+            "text": "📏 Size Chart",
+            "text_alignment": "left",
+            "page": "size-chart"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "af4fc96f-9f23-46eb-9090-fd399541eeaa": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "CARE GUIDE",
+            "collapsible_tab_text": "<p>A white powdery \"bloom\" may appear on your boots. You can clean them by using cold, soapy water. Wipe clean and leave to dry naturally. Use a little vegetable or olive oil on a clean, dry cloth to keep your boots looking fresh.<\/p>"
+          }
+        },
+        "735be8e9-2f33-4611-8d3c-9b7f447a41f5": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "PRODUCT SPECIFICATION",
+            "collapsible_tab_text": "<p>• Vegan<br\/>• Eco-Friendly<br\/>• Made from: Natural Rubber<br\/>• Outsole: Traditional Natural Rubber<br\/>• Lining: Quick Dry Knitted Cotton Lining<br\/>• Footbed: Multi-Layer Cushioned Sole<\/p>"
+          }
+        },
+        "6bd0b6d9-9511-42fd-b2f7-729156af25ad": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "SHIPPING & RETURNS",
+            "collapsible_tab_text": "<p>Free US shipping on orders over $75, and our 30 days, no questions asked return policy. Visit our <a href=\"\/pages\/orders\" title=\"Orders FAQs and Shipping & Handling\">Returns Portal<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0306e497-43a6-44a2-a5be-5d3659fc7de0",
+        "title",
+        "price",
+        "bf0449f4-ec14-4676-a834-04757c115ca1",
+        "0e79901c-b9ff-47b9-9035-c671f076109d",
+        "form",
+        "description",
+        "af4fc96f-9f23-46eb-9090-fd399541eeaa",
+        "735be8e9-2f33-4611-8d3c-9b7f447a41f5",
+        "6bd0b6d9-9511-42fd-b2f7-729156af25ad"
+      ],
+      "settings": {
+        "product_breadcrumb": false,
+        "media_position": "is-flex-row",
+        "set_product_height": true,
+        "product_height": 800,
+        "video_looping": false,
+        "product_thumbs": true,
+        "gallery_arrows": true,
+        "enable_product_lightbox": false,
+        "activate_zoom": false,
+        "slideshow_speed": 0,
+        "slideshow_animation": "slide",
+        "thumbnail_position": "bottom",
+        "enable_thumbnail_slider": true
+      }
+    },
+    "164818144496ce5bd4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Beginning of the code - Pre footer trust badges -->\n          <style>\n          #gd-pre-footer { overflow:hidden; clear:both; margin-top:35px; margin-bottom:10px; padding-bottom:0; }\n          #gd-pre-footer .col-item { padding:15px 25px; text-align:center; list-style:none; }\n          #gd-pre-footer ul { padding-left:0 !important; }\n          #gd-pre-footer center { background:#FFFFFF; }\n          #gd-pre-footer img { height: 15px; }\n          #gd-pre-footer p { font-size: 12px; }\n          @media screen and (min-width: 768px) {\n          #gd-pre-footer .col-item {\n          width:25%;\n          text-align:center;\n          float:left;\n          padding:5px 15px;\n          }\n          }\n          <\/style>\n          <div id=\"gd-pre-footer\" class=\"pre_footer index-section home-section\">\n          <div class=\"wrapper\">\n          <div>\n          <ul class=\"footer-badges-list\">\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Free_Shipping.png?v=1648047869\" style=\"height: 50px;\">\n          <p class=“p”>FREE US SHIPPING*<\/p>\n          <\/div>\n          <\/li>\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Return.png?v=1648047682\" style=\"height: 50px;\">\n          <p class=“p”>FREE US RETURNS<\/p>\n          <\/div>\n          <\/li>\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/CS.png?v=1648048050\" style=\"height: 50px;\">\n          <p class=“p”>24\/7 CUSTOMER SUPPORT<\/p>\n          <\/div>\n          <\/li>\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Secure_Payment.png?v=1648048141\" style=\"height: 50px;\">\n          <p class=“p”>100% SECURE CHECKOUT<\/p>\n          <\/div>\n          <\/li>\n          <\/ul>\n          <\/div>\n          <\/div>\n          <\/div>\n       <!-- Ending of the code - Pre footer trust badges -->",
+        "css_class": "is-hidden-mobile-only",
+        "custom_css": ""
+      }
+    },
+    "1648215001d3af2373": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Beginning of the code - Pre footer trust badges -->\n          <style>\n          #gd-pre-footer { overflow:hidden; clear:both; margin-top:35px; margin-bottom:10px; padding-bottom:0; }\n          #gd-pre-footer .col-item { padding:15px 25px; text-align:center; list-style:none;}\n          #gd-pre-footer ul { padding-left:0 !important; }\n          #gd-pre-footer center { background:#FFFFFF; }\n          #gd-pre-footer img { height: 15px; }\n          #gd-pre-footer p { font-size: 12px; }\n          @media screen and (min-width: 768px) {\n          #gd-pre-footer .col-item {\n          width:25%;\n          text-align:center;\n          justify-content: space-around; \n          display: flex;\n          flex-flow: row wrap; \n          }\n          }\n          <\/style>\n          <div id=\"gd-pre-footer\" class=\"pre_footer index-section home-section\">\n          <div class=\"wrapper\">\n          <div>\n          <ul class=\"footer-badges-list\">\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Free_Shipping.png?v=1648047869\" style=\"height: 50px;\">\n          <p class=“p”>FREE US SHIPPING*<\/p>\n          <\/div>\n          <\/li>\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Return.png?v=1648047682\" style=\"height: 50px;\">\n          <p class=“p”>FREE US RETURNS<\/p>\n          <\/div>\n          <\/li>\n          <\/ul>\n          <\/div>\n          <\/div>\n          <\/div>\n       <!-- Ending of the code - Pre footer trust badges -->",
+        "css_class": "is-hidden-desktop-only",
+        "custom_css": ""
+      }
+    },
+    "16481407940fa04b27": {
+      "type": "image-text",
+      "blocks": {
+        "16481407932d600498-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bCifN3EA.jpg",
+            "image_crop": "none",
+            "title": "COMFORT FOR THE WHOLE FAMILY",
+            "text": "<p>Our multi-layer cushioned sole provides all day comfort while the all natural rubber outsole and quick dry knitted cotton lining keeps the entire family dry and warm. Designed for your comfort with no pinching or rubbing.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        },
+        "570c40bd-fce2-4e55-8dc4-4a0f0f703cb2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Waterproof_c3d0424f-641e-434b-b8b6-e2b4506f41f6.png",
+            "image_crop": "none",
+            "title": "Perfect for any season!",
+            "text": "<p>You never know what you will get when it comes to the weather. That's why we made our rain boots versatile enough to wear all year round. You can wear these boots with any outfit and in any weather.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        },
+        "16481407932d600498-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/donate11.png",
+            "image_crop": "none",
+            "title": "GIVING POVERTY THE BOOT",
+            "text": "<p>For every pair of boots sold, a brand new pair is donated to a child living in poverty. #ForYouForAll.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "16481407932d600498-0",
+        "570c40bd-fce2-4e55-8dc4-4a0f0f703cb2",
+        "16481407932d600498-1"
+      ],
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "rv_title": "Recently viewed products",
+        "rv_max_display": 6,
+        "rv_per": 4,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1648232747d580c816": {
+      "type": "logo-bar",
+      "blocks": {
+        "1648232747b6a4aa59-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheView.png",
+            "link": ""
+          }
+        },
+        "1648232747b6a4aa59-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BAZAAR.png",
+            "link": ""
+          }
+        },
+        "1648232747b6a4aa59-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MSNBC.png",
+            "link": ""
+          }
+        },
+        "1648232747b6a4aa59-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/InStyle.png",
+            "link": ""
+          }
+        },
+        "48ad1846-3d49-43bb-832a-f49435d0c206": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Today_Show.png",
+            "link": ""
+          }
+        },
+        "ccd423f6-6fdc-4167-8cb9-ca8faad8428d": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Good_Morning_America.png",
+            "link": ""
+          }
+        },
+        "178a52a9-fba3-4d3d-b83f-48ee24948c64": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Oprah_Magazine.png",
+            "link": ""
+          }
+        },
+        "474c38a7-4a67-4038-8b9b-7545ff375d18": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HuffPost.png",
+            "link": ""
+          }
+        },
+        "01f276a0-d00a-4b2c-8fef-6ceacb99c54c": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Inc.png",
+            "link": ""
+          }
+        },
+        "160158cd-660f-4be2-83ac-de99bc5f8a24": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forbes.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1648232747b6a4aa59-0",
+        "1648232747b6a4aa59-1",
+        "1648232747b6a4aa59-2",
+        "1648232747b6a4aa59-3",
+        "48ad1846-3d49-43bb-832a-f49435d0c206",
+        "ccd423f6-6fdc-4167-8cb9-ca8faad8428d",
+        "178a52a9-fba3-4d3d-b83f-48ee24948c64",
+        "474c38a7-4a67-4038-8b9b-7545ff375d18",
+        "01f276a0-d00a-4b2c-8fef-6ceacb99c54c",
+        "160158cd-660f-4be2-83ac-de99bc5f8a24"
+      ],
+      "settings": {
+        "title": "AS SEEN ON",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164823292279343879": {
+      "type": "faq",
+      "blocks": {
+        "1648232922a24eb818-1": {
+          "type": "content",
+          "settings": {
+            "title": "Q. WHAT IS ROMA BOOTS?  ",
+            "answer": "<p>A. ROMA Boots is a socially conscious 'buy one give one' boot company that merges fashion with philanthropy. For every pair of ROMA boots sold, a brand new pair of ROMA rain boots are donated to children and families across the world.<\/p>"
+          }
+        },
+        "1648232922a24eb818-2": {
+          "type": "content",
+          "settings": {
+            "title": "Q. HOW WAS ROMA FOUNDED?  ",
+            "answer": "<p>A. Samuel Bistrian, who was born in a small village in Romania, conceived of the idea in 2009 after more than a decade of taking annual trips to Romania where he saw children roaming the streets with sandals, broken shoes or no shoes at all, through mud, rain and snow. Samuel decided it was time to do something about it and founded ROMA Boots in 2010.<\/p>"
+          }
+        },
+        "1648232922a24eb818-3": {
+          "type": "content",
+          "settings": {
+            "title": "Q. WHAT DOES ROMA MEAN?  ",
+            "answer": "<p>A. ROMA is amor spelled backwards. Amor means love, which is ROMA’s primary motivation. It is also the proper term for the gypsy people, who are generally a poor, marginalized population that ROMA initially provided most of our donations to.<\/p>"
+          }
+        },
+        "1648232922a24eb818-5": {
+          "type": "content",
+          "settings": {
+            "title": "Q. ARE THE BOOTS YOU GIVE ONLY FOR THE ROMA CHILDREN?  ",
+            "answer": "<p>A. No. We want to help the most impoverished children of the world, especially street children and orphans. The majority of the children we have served so far have been ROMA.<\/p>"
+          }
+        },
+        "1648232922a24eb818-6": {
+          "type": "content",
+          "settings": {
+            "title": "Q. WHAT ARE ROMA BOOTS MADE OF?  ",
+            "answer": "<p>A. They are made of natural rubber and have a quick-dry cotton lining and a three-layer insole for total comfort.<\/p>"
+          }
+        },
+        "1648232922a24eb818-7": {
+          "type": "content",
+          "settings": {
+            "title": "Q. WHAT SIZE SHOULD I ORDER?  ",
+            "answer": "<p>A. Our women's ROMA Boots run a half size large and only come in whole sizes. If you are in between sizes, we <em>suggest<\/em> sizing down. This may not apply to everyone so we highly recommend looking at our <a href=\"http:\/\/romaboots.com\/pages\/size-chart\" target=\"_blank\" title=\"Roma Boots Size Chart\"><strong>SIZE CHART<\/strong><\/a><strong> <\/strong>to make the best sizing decision.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1648232922a24eb818-1",
+        "1648232922a24eb818-2",
+        "1648232922a24eb818-3",
+        "1648232922a24eb818-5",
+        "1648232922a24eb818-6",
+        "1648232922a24eb818-7"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "1648501926e149ea7a": {
+      "type": "okendo-reviews-widget",
+      "settings": {}
+    },
+    "1648219823b8a0b7ab": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "57aa1642-429e-4e38-9bac-e306c6432b2b": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "57aa1642-429e-4e38-9bac-e306c6432b2b"
+      ],
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "wide_display": true,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "Also Consider",
+        "products_per_row": 5,
+        "recommended_products_limit": 6
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "wide_display": true,
+        "display_first_name": false,
+        "display_last_name": false,
+        "newsletter_title": "",
+        "newsletter_text": "<p>Enter your email to stay in touch!<\/p>",
+        "newsletter_section_text_align": "left",
+        "image": "shopify:\/\/shop_images\/newsletter.png",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "sidebar",
+    "main",
+    "164818144496ce5bd4",
+    "1648215001d3af2373",
+    "16481407940fa04b27",
+    "recently-viewed",
+    "1648232747d580c816",
+    "164823292279343879",
+    "1648501926e149ea7a",
+    "1648219823b8a0b7ab",
+    "recommendations",
+    "newsletter"
+  ]
+}

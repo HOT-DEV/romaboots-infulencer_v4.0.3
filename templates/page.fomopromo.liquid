@@ -1,0 +1,57 @@
+{% layout 'theme-fomo' %}
+
+<section class="section">
+  <div
+    class="
+      container
+      content
+      page
+    "
+  >
+    <div class="pg-in-heading">
+      {% include 'fomo-page-header' %}
+    </div>
+    
+    <div class="pg-in-content">
+      <h1 class="fomo-title">Partner with us</h1>
+      <div class="fomo-desc">
+        Partner with us in our journey to make a difference in the world of children living in poverty. Fill in your the details below and we’ll reach out shortly with details on influencer collaboration.
+      </div>
+      <form class="fomo-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="fomo-form">
+
+        <input type=hidden name='captcha_settings' value='{"keyname":"TH_fomopromoXroma","fallback":"true","orgId":"00D4W000005hmmt","ts":""}'>
+        <input type=hidden name="oid" value="00D4W000005hmmt">
+        <input type=hidden name="retURL" {% if settings.fomopromo_return_url != blank %} value="{{settings.fomopromo_return_url}}" {% else %} value="http://" {% endif %}>
+
+        <div class="fomo-block wd-sm-box">
+          <input class="fomo-input wd-sm" id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="First Name*" required/>
+          <input class="fomo-input wd-sm" name="last_name" id="last_name" maxlength="80" name="last_name" size="20"  type="text" placeholder="Last Name*" required/>
+        </div>
+        <div class="fomo-block">
+          <input class="fomo-input" id="email" maxlength="80" name="email" size="20" type="email" placeholder="Email*" required/>
+        </div>
+        <div class="fomo-block wd-sm-box">
+          <input class="fomo-input wd-sm" id="00N4W00000SSsHi" maxlength="100" name="00N4W00000SSsHi" size="20" type="text" placeholder="Instagram Handle*" required/>
+          <input class="fomo-input wd-sm" id="00N4W00000STd9w" name="00N4W00000STd9w" size="20" type="text"  placeholder="# of followers*" required/>
+        </div>
+        <div class="fomo-block check-box">
+          <input class="fomo-input checkbox"  id="00N4W00000STs9D" name="00N4W00000STs9D" type="checkbox" value="1" required/>
+          <span class="chk-label">I want to receive emails from fomopromo about news and updates</span>
+        </div>
+        {% if settings.fomopromo_enable_captcha == true %}
+          <div class="fomo-panel recaptcha-box">
+            <input class=""  id="recaptcha_checked" name="recaptcha_checked" type="checkbox" required/>
+            <div class="g-recaptcha" data-sitekey="6Lfb7yAiAAAAAFbWB9TGtKdRqUPcHLRgj3xMJHya"></div>
+          </div>
+        {% endif %}
+        <div class="fomo-block form-submit">
+          <button type="submit" class="fomo-submit">SUBMIT</button>
+        </div>        
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+

@@ -1,0 +1,276 @@
+{
+  "sections": {
+    "sidebar": {
+      "type": "product-sidebar",
+      "settings": {
+        "toggle": false
+      }
+    },
+    "main": {
+      "type": "product-template",
+      "blocks": {
+        "0306e497-43a6-44a2-a5be-5d3659fc7de0": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "bf0449f4-ec14-4676-a834-04757c115ca1": {
+          "type": "tabs",
+          "disabled": true,
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": false,
+            "tab_heading_1": "Specs",
+            "tab_text_1": "<p>• Vegan<br\/>• Eco-Friendly<br\/>• Made from: Natural Rubber<br\/>• Outsole: Traditional Natural Rubber<br\/>• Lining: Quick Dry Knitted Cotton Lining<br\/>• Footbed: Multi-Layer Cushioned Sole<\/p>",
+            "tab_heading_2": "Care Guide",
+            "tab_text_2": "<p>A white powdery \"bloom\" may appear on your boots. You can clean them by using cold, soapy water. Wipe clean and leave to dry naturally. Use a little vegetable or olive oil on a clean, dry cloth to keep your boots looking fresh.<\/p>",
+            "tab_heading_3": "Shipping & Returns",
+            "tab_text_3": "<p>Free shipping on orders over $75, and our 30 days, no questions asked return policy. Visit our <a href=\"\/pages\/orders\" title=\"Orders FAQs and Shipping & Handling\">Returns Portal<\/a>.<\/p>"
+          }
+        },
+        "0e79901c-b9ff-47b9-9035-c671f076109d": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "📏 Size Chart",
+            "text_alignment": "left",
+            "page": "size-chart-3"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "af4fc96f-9f23-46eb-9090-fd399541eeaa": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "CARE GUIDE",
+            "collapsible_tab_text": "<p>A white powdery \"bloom\" may appear on your boots. You can clean them by using cold, soapy water. Wipe clean and leave to dry naturally. Use a little vegetable or olive oil on a clean, dry cloth to keep your boots looking fresh.<\/p>"
+          }
+        },
+        "735be8e9-2f33-4611-8d3c-9b7f447a41f5": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "PRODUCT SPECIFICATION",
+            "collapsible_tab_text": "<p>• Vegan<br\/>• Eco-Friendly<br\/>• Made from: Natural Rubber<br\/>• Outsole: Traditional Natural Rubber<br\/>• Lining: Quick Dry Knitted Cotton Lining<br\/>• Footbed: Multi-Layer Cushioned Sole<\/p>"
+          }
+        },
+        "6bd0b6d9-9511-42fd-b2f7-729156af25ad": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "SHIPPING & RETURNS",
+            "collapsible_tab_text": "<p>Free US shipping on orders over $75, and our 30 days, no questions asked return policy. Visit our <a href=\"\/pages\/orders\" title=\"Orders FAQs and Shipping & Handling\">Returns Portal<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0306e497-43a6-44a2-a5be-5d3659fc7de0",
+        "title",
+        "price",
+        "bf0449f4-ec14-4676-a834-04757c115ca1",
+        "0e79901c-b9ff-47b9-9035-c671f076109d",
+        "form",
+        "description",
+        "af4fc96f-9f23-46eb-9090-fd399541eeaa",
+        "735be8e9-2f33-4611-8d3c-9b7f447a41f5",
+        "6bd0b6d9-9511-42fd-b2f7-729156af25ad"
+      ],
+      "settings": {
+        "product_breadcrumb": false,
+        "media_position": "is-flex-row",
+        "set_product_height": true,
+        "product_height": 800,
+        "video_looping": false,
+        "product_thumbs": true,
+        "gallery_arrows": true,
+        "enable_product_lightbox": false,
+        "activate_zoom": false,
+        "slideshow_speed": 0,
+        "slideshow_animation": "slide",
+        "thumbnail_position": "bottom",
+        "enable_thumbnail_slider": true
+      }
+    },
+    "164818144496ce5bd4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Beginning of the code - Pre footer trust badges -->\n          <style>\n          #gd-pre-footer { overflow:hidden; clear:both; margin-top:35px; margin-bottom:10px; padding-bottom:0; }\n          #gd-pre-footer .col-item { padding:15px 25px; text-align:center; list-style:none; }\n          #gd-pre-footer ul { padding-left:0 !important; }\n          #gd-pre-footer center { background:#FFFFFF; }\n          #gd-pre-footer img { height: 15px; }\n          #gd-pre-footer p { font-size: 12px; }\n          @media screen and (min-width: 768px) {\n          #gd-pre-footer .col-item {\n          width:25%;\n          text-align:center;\n          float:left;\n          padding:5px 15px;\n          }\n          }\n          <\/style>\n          <div id=\"gd-pre-footer\" class=\"pre_footer index-section home-section\">\n          <div class=\"wrapper\">\n          <div>\n          <ul class=\"footer-badges-list\">\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Free_Shipping.png?v=1648047869\" style=\"height: 50px;\">\n          <p class=“p”>FREE US SHIPPING*<\/p>\n          <\/div>\n          <\/li>\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Return.png?v=1648047682\" style=\"height: 50px;\">\n          <p class=“p”>FREE US RETURNS<\/p>\n          <\/div>\n          <\/li>\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/CS.png?v=1648048050\" style=\"height: 50px;\">\n          <p class=“p”>24\/7 CUSTOMER SUPPORT<\/p>\n          <\/div>\n          <\/li>\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Secure_Payment.png?v=1648048141\" style=\"height: 50px;\">\n          <p class=“p”>100% SECURE CHECKOUT<\/p>\n          <\/div>\n          <\/li>\n          <\/ul>\n          <\/div>\n          <\/div>\n          <\/div>\n       <!-- Ending of the code - Pre footer trust badges -->",
+        "css_class": "is-hidden-mobile-only",
+        "custom_css": ""
+      }
+    },
+    "1648215001d3af2373": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Beginning of the code - Pre footer trust badges -->\n          <style>\n          #gd-pre-footer { overflow:hidden; clear:both; margin-top:35px; margin-bottom:10px; padding-bottom:0; }\n          #gd-pre-footer .col-item { padding:15px 25px; text-align:center; list-style:none;}\n          #gd-pre-footer ul { padding-left:0 !important; }\n          #gd-pre-footer center { background:#FFFFFF; }\n          #gd-pre-footer img { height: 15px; }\n          #gd-pre-footer p { font-size: 12px; }\n          @media screen and (min-width: 768px) {\n          #gd-pre-footer .col-item {\n          width:25%;\n          text-align:center;\n          justify-content: space-around; \n          display: flex;\n          flex-flow: row wrap; \n          }\n          }\n          <\/style>\n          <div id=\"gd-pre-footer\" class=\"pre_footer index-section home-section\">\n          <div class=\"wrapper\">\n          <div>\n          <ul class=\"footer-badges-list\">\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Free_Shipping.png?v=1648047869\" style=\"height: 50px;\">\n          <p class=“p”>FREE US SHIPPING*<\/p>\n          <\/div>\n          <\/li>\n          <li class=\"col-item\">\n          <div class=\"text-center\">\n          <img class=\"img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0182\/8235\/files\/Return.png?v=1648047682\" style=\"height: 50px;\">\n          <p class=“p”>FREE US RETURNS<\/p>\n          <\/div>\n          <\/li>\n          <\/ul>\n          <\/div>\n          <\/div>\n          <\/div>\n       <!-- Ending of the code - Pre footer trust badges -->",
+        "css_class": "is-hidden-desktop-only",
+        "custom_css": ""
+      }
+    },
+    "16481407940fa04b27": {
+      "type": "image-text",
+      "blocks": {
+        "16481407932d600498-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UM2001_-_Lavender_Umbrella_Lifestyle.jpg",
+            "image_crop": "none",
+            "title": "A NEW WAY TO STOP THE RAIN",
+            "text": "<p>Literally flip the way you think about umbrellas with a cutting-edge reverse opening umbrella that gives back while sporting improvements like freestanding stability, a smarter handle, and colors that match your style.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        },
+        "570c40bd-fce2-4e55-8dc4-4a0f0f703cb2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FE268B4D-224E-4170-805C-98FC05978D2E.jpg",
+            "image_crop": "none",
+            "title": "UMBRELLAS FOR TODAY'S RAINY DAYS",
+            "text": "<p>Perhaps the biggest innovation for umbrellas in decades, double-layered inverted umbrellas like ours make keeping water out of your home or car easy, showing that umbrellas were always meant to open the other way.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        },
+        "369d1e89-4f76-44d1-91eb-e82461be470c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1000x1000_Image_UM2001-2.jpg",
+            "image_crop": "none",
+            "title": "ALWAYS BE PREPARED",
+            "text": "<p>When closed, Roma's reverse umbrellas can either be slid into the sleek lightweight shoulder bag or placed freestanding on its own to let it drip dry and stay close by your side whenever you can't hang it up or stow it away.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        },
+        "a8a8b987-1f69-47fd-a659-7cbc85907046": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_833463cf-7751-447e-ad17-5dd1b8fbfa76.png",
+            "image_crop": "none",
+            "title": "SMARTER C-SHAPED HANDLE",
+            "text": "<p>Say goodbye to excess stress on your wrist with the ergonomically shaped handle that lets you hold your umbrella how you see fit at any height. Once you're back inside, the C-shape makes it easy to hang on your coat rack.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        },
+        "16481407932d600498-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/donate11.png",
+            "image_crop": "none",
+            "title": "GIVING POVERTY THE BOOT",
+            "text": "<p>For every pair of boots sold, a brand new pair is donated to a child living in poverty. #ForYouForAll.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "16481407932d600498-0",
+        "570c40bd-fce2-4e55-8dc4-4a0f0f703cb2",
+        "369d1e89-4f76-44d1-91eb-e82461be470c",
+        "a8a8b987-1f69-47fd-a659-7cbc85907046",
+        "16481407932d600498-1"
+      ],
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "rv_title": "Recently viewed products",
+        "rv_max_display": 6,
+        "rv_per": 4,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1648219823b8a0b7ab": {
+      "type": "apps",
+      "blocks": {
+        "57aa1642-429e-4e38-9bac-e306c6432b2b": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "57aa1642-429e-4e38-9bac-e306c6432b2b"
+      ],
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "wide_display": true,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "Also Consider",
+        "products_per_row": 5,
+        "recommended_products_limit": 6
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "wide_display": true,
+        "display_first_name": false,
+        "display_last_name": false,
+        "newsletter_title": "",
+        "newsletter_text": "<p>Enter your email to stay in touch!<\/p>",
+        "newsletter_section_text_align": "left",
+        "image": "shopify:\/\/shop_images\/newsletter.png",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "sidebar",
+    "main",
+    "164818144496ce5bd4",
+    "1648215001d3af2373",
+    "16481407940fa04b27",
+    "recently-viewed",
+    "1648219823b8a0b7ab",
+    "recommendations",
+    "newsletter"
+  ]
+}

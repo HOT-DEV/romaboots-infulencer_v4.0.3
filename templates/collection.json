@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "blocks": {
+        "fa7f58ec-2529-429c-96e6-678dcf136fd6": {
+          "type": "filter_by_type",
+          "settings": {}
+        },
+        "9c01b659-9a72-4e32-80e1-87733e750be1": {
+          "type": "filter",
+          "settings": {
+            "filter_name": "Color",
+            "filter_tags": "Black, Croc, Eggplant, Floral, Gray, Leopard, Magenta, Maroon, Olive, Red, Teal, Yellow",
+            "enable_filter_swatches": true
+          }
+        }
+      },
+      "block_order": [
+        "fa7f58ec-2529-429c-96e6-678dcf136fd6",
+        "9c01b659-9a72-4e32-80e1-87733e750be1"
+      ],
+      "settings": {
+        "featured_collection_image": false,
+        "wide_display": true,
+        "mobile_image_crop": "none",
+        "caption_content_background": "original",
+        "display_collection_title": false,
+        "collection_breadcrumb": true,
+        "collection_tags": false,
+        "collection_sort": false,
+        "products_per_row": 3,
+        "pagination_limit": 12,
+        "toggle": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "wide_display": true,
+        "display_first_name": false,
+        "display_last_name": false,
+        "newsletter_title": "Subscribe",
+        "newsletter_text": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
+        "newsletter_section_text_align": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter"
+  ]
+}
